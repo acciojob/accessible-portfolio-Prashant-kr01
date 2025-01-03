@@ -7,21 +7,42 @@
 </head>
 
 <body>
-	<h1>heading</h1>
-	<nav>navigation</nav>
-	<img alt="img">
-	<p> 
-		Images are not technically inserted into a web page;
-		images are linked to web pages. The img tag creates
-		a holding space for the referenced image.
-	</p>
-	
-	<ul> list
-		  <li>listitem</li>
-          <li>listitem</li>
-          <li>listitem</li>
-	</ul>
+	<header>
+        <h1 role="heading">Prashant Kumar - Frontend Developer</h1>
+    </header>
 
+    <!-- Navigation Bar -->
+    <nav role="navigation" aria-label="Main Navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <img role="img" src="profile.jpg" alt="Portrait of Prashant Kumar">
+            <p>Hello! I'm Prashant Kumar, a passionate frontend developer who creates accessible and responsive web applications.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 role="heading">My Projects</h2>
+            <ul role="list">
+                <li role="listitem">Portfolio Website</li>
+                <li role="listitem">E-commerce Platform</li>
+                <li role="listitem">Accessible Web Components</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Prashant Kumar. All rights reserved.</p>
+    </footer>
 	
 	
 	
